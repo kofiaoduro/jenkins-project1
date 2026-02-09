@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_USERNAME = "koduro"
-        IMAGE_NAME = "python-jenkins-app"
+        IMAGE_NAME = "kofioduro.py"
         IMAGE_TAG = "latest"
     }
 
