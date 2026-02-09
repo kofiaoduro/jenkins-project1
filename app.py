@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "This is kofi testing his code"
+    return "Testing my code to see if it triggers automatically"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
